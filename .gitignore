@@ -1,0 +1,18 @@
+# Dependency Directories
+/vendor/
+
+# Sensitive Information (Where you keep your SMTP/DB credentials)
+config.php
+.env
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs and Temp files
+*.log
+/temp/
+/cache/
+
+# DOMPdf specific (if it generates temporary files)
+/lib/res/html.pickle
